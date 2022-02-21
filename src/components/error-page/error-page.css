@@ -1,0 +1,40 @@
+:host {
+  display: block;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  flex-flow: column;
+  align-items: center;
+  font-family: sans-serif;
+  background-color: #def;
+}
+
+.home {
+  font-weight: bold;
+  margin-top: 2rem;
+  align-self: end;
+  margin-right: 2rem;
+}
+
+h1 {
+  font-size: xxx-large;
+  font-weight: bolder;
+  text-shadow: 3px 3px 2px lightslategray;
+  text-align: center;
+}
+
+.path {
+  font-family: monospace;
+  text-decoration: underline;
+  font-size: larger;
+}
+
+.description {
+  text-align: center;
+  
+}
+
+svg { 
+  margin-top: 1rem;
+}

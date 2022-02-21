@@ -1,0 +1,10 @@
+apiVersion: fe.milung.eu/v1
+kind: WebComponent
+metadata: 
+  name: error-pages
+spec:   
+  module-uri: http://error-pages.ingress-nginx/build/error-page-webc.js 
+  preload: true
+  proxy: true
+  hash-suffix: v1alpha1
+  
