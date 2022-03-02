@@ -2,7 +2,7 @@
 
 Simple web component to display standardized error messages accross apps - intended for SPA or the gateway displays.
 
-The module is minimalistic with asset being encoded to minimize extra traffic in case of errors.
+The module is minimalistic with assets being encoded to minimize extra traffic in the case of errors.
 
 ## Usage
 

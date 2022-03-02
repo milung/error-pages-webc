@@ -3,7 +3,7 @@ kind: WebComponent
 metadata: 
   name: error-pages
 spec:   
-  module-uri: http://error-pages.ingress-nginx/build/error-page-webc.js 
+  module-uri: http://error-pages.ingress-nginx/build/error-page-webc.esm.js
   preload: true
   proxy: true
   hash-suffix: v1alpha1
